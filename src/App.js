@@ -11,7 +11,6 @@ const App = () => {
   const [bad, setBad] = useState(0);
 
   const onLeaveFeedback = option => {
-    console.log(option);
     switch (option) {
       case 'good':
         setGood(prevState => prevState + 1);
